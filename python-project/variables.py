@@ -6,4 +6,4 @@ name_is_ = "Najaf Ali Haider"
 
 print(name_is_)
 
-print('My favorite colors are', 'Blue', 'yellow', 'green', 'red')
+print('My favorite colors are', 'Blue', 'yellow', 'green', 'red') #comma Automatically adds spacing btw strings in Python
