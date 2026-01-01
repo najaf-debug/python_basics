@@ -21,10 +21,12 @@ my_set_var = {7,8,9}
 print('Set:', my_set_var)
 # Dictionary
 # A Collection of key-value pairs enclosed in curly braces, like{'name' : 'Najaf Ali Haider', 'age' : 24}
+# An Immutable ordered collection of key-value pairs enclosed in curly brackets, like (7,8,4)
 my_dictionary_var = {'name' : 'Najaf Ali Haider', 'age' : 24}
 print("My Dictionary is:", my_dictionary_var)
 # Tuple
-# An Immutable ordered collection of key-value pairs enclosed in curly brackets, like (7,8,4)
+
+# An immutable ordered collection, enclosed in paranthesis
 my_tuple_var = (6,7,8)
 print("Tuple:", my_tuple_var)
 # Range
@@ -32,7 +34,7 @@ print("Tuple:", my_tuple_var)
 my_range_var = range(5)
 print('Range:', my_range_var)
 # List
-# A Ordered Collection of Elements consists of Different data types
+# An Ordered Collection of Elements consists of Different data types enclosed in square brackets
 my_list_var = [22, "Hello, World!", 0.14, True]
 print(my_list_var)
 # None 

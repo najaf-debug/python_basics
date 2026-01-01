@@ -52,3 +52,27 @@ my_str =  'hello world'
 
 is_all_upper = my_str.isupper()
 print(is_all_upper)
+
+# Str.find() this method returns the index of the first occurences. if one is not found it returns -1
+
+developer = 'Najaf'
+
+result = developer.find('H')
+print(result)
+
+# str.count(substring) this counts how many times a string has been appears in a string
+city = 'Los Angeles'
+print(city.count("e"))
+
+# Upper() returns with all characters capital 
+dessert = "safari"
+new_dessert = dessert.upper()
+print(new_dessert)
+
+# str.maketrans()
+
+trans_table = str.maketrans('abc', '123')
+print(trans_table)
+
+result = 'abcabc'.translate(trans_table)
+print(result)
