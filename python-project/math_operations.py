@@ -44,3 +44,43 @@ float_2 = 12.9
 
 print(round(float_1))
 print(round(float_2))
+
+# Augmented assignments combines binary operation with an assignment in one step. it takes a variable, applies an operation to it with another value, and stores the result back into the same variable
+
+# Addition assignment
+
+my_var = 10
+my_var += 5
+print(my_var)
+
+# subtraction assignment
+
+count = 14
+count -= 4
+print(count)
+
+# Multiplication assignment
+
+product = 65
+product *= 7
+print(product)
+
+# Division assignment
+
+price = 100
+price /= 4
+print(price)
+print(round(price))
+
+# floor division assignment
+
+total_pages = 23 
+total_pages //= 5
+print(total_pages)
+
+# modulus assignment
+
+bits = 35
+bits %= 2
+
+print(bits)
