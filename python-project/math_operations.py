@@ -84,3 +84,8 @@ bits = 35
 bits %= 2
 
 print(bits)
+
+# Exponentiation assignment
+power = 2
+power **= 3 
+print(power)
