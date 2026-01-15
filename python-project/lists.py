@@ -68,11 +68,11 @@ print(name, remaining)
 # in the lists method our last function is list slicing
 
 desserts = ['Cake', 'Cookies', 'Ice Cream', 'Pie', 'Cream']
-print(desserts[1:3])
+print(desserts[1:4])
 
 # Another thing you can do with the slice operator is you can specify a interval which determines how much to increment btw indices
 # for example if you have a list of numbers and you just want to print even numbers then you can do it like this
 
 numbers = [0,1,2,3,4,5,6,7,8,9,10]
 
-print(numbers[0::2])
+print(numbers[1::2])
